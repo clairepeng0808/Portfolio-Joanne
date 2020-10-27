@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif, PingFangSC-Regular, sans-serif;
+  font-weight: 500;
+}
+
+.text-white {
+  color: #fff;
+}
+
+h1 {
+  line-height: 94px;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 75px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0 10px;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+li {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mt-3 {
+  margin-top: 24px;
+}
+
+.mt-4 {
+  margin-top: 32px;
+}
+
+.mt-5 {
+  margin-top: 40px;
+}
+
+.mt-6 {
+  margin-top: 48px;
+}
+
+.tac {
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-banner {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 958px;
+  border: 1px solid #707070;
+  padding-top: 356px;
+}
+
+.banner-inner {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.about {
+  padding-top: 64px;
+  padding-bottom: 56px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 384px;
+}
+
+.intro li {
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+hr {
+  border: 1px solid #000000;
+}
+
+.highlight li {
+  font-weight: 700;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight li::before {
+  content: "•";
+  color: #891818;
+  margin-right: 16px;
+  font-style: normal;
+  font-size: 72px;
+}
+
+.background-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.myBrand,
+.other-works {
+  padding-top: 64px;
+  padding-bottom: 160px;
+}
+
+.concept {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.brand-gallery {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.brand-gallery li {
+  margin-top: 40px;
+}
+
+.w-large {
+  width: 792px;
+}
+.w-small {
+  width: 588px;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.works li {
+  margin-top: 56px;
+}
+
+.works p {
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.contact {
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+
+.contact li {
+  margin-top: 16px;
+}
+
+.contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
